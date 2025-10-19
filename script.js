@@ -1,4 +1,4 @@
-<script>
+
     // Menu mobile - s'exécute UNIQUEMENT sur mobile
     const mobileMenu = document.querySelector('.mobile-menu');
     const navMenu = document.querySelector('nav ul');
@@ -121,4 +121,3 @@
     
     // Déclencher l'animation au chargement
     window.dispatchEvent(new Event('scroll'));
-</script>
