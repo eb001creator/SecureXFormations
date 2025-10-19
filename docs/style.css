@@ -1,4 +1,3 @@
-
 * {
             margin: 0;
             padding: 0;
@@ -115,7 +114,7 @@
         }
         
         .logo-img {
-            height: 100px;
+            height: 60px; /* recommended desktop height: 48-64px; 60px is a good default */
             width: auto;
         }
         
@@ -200,7 +199,7 @@
             }
 
             .logo-img {
-                height: 35px;
+                height: 36px; /* mobile */
             }
 
             /* Overlay pour mobile */
@@ -748,35 +747,36 @@
             
             h2 {
                 font-size: 1.6rem;
+                font-size: 1.6rem;
             }
-            
             .hero h1 {
+            .hero h1 {ize: 2rem;
                 font-size: 2rem;
             }
-            
             .hero .subtitle {
+            .hero .subtitle {1rem;
                 font-size: 1.1rem;
             }
-            
+            .countdown-timer, .countdown-final {
             .countdown-timer, .countdown-final {
                 font-size: 2rem;
             }
-            
             .trust-stats {
+            .trust-stats {tion: column;
                 flex-direction: column;
             }
         }
-        
         @media (max-width: 576px) {
-            .btn-large, .btn-cta {
+        @media (max-width: 576px) {
+            .btn-large, .btn-cta {;
                 padding: 14px 25px;
                 font-size: 1rem;
             }
-            
+            .pack-card, .testimonial-card, .faq-item {
             .pack-card, .testimonial-card, .faq-item {
                 padding: 20px;
             }
-            
+            .current-price, .special-price {
             .current-price, .special-price {
                 font-size: 1.8rem;
             }
