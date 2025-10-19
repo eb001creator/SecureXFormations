@@ -114,7 +114,7 @@
         }
         
         .logo-img {
-            height: 60px; /* recommended desktop height: 48-64px; 60px is a good default */
+            height: 100px; /* recommended desktop height: 48-64px; 60px is a good default */
             width: auto;
         }
         
@@ -199,7 +199,7 @@
             }
 
             .logo-img {
-                height: 36px; /* mobile */
+                height: 60px; /* mobile */
             }
 
             /* Overlay pour mobile */
